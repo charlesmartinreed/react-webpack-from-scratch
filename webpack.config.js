@@ -4,6 +4,9 @@ const path = require("path");
 // we're using our template, which was created by simply created an index.html
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
+// testing a basic CSS implementation
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+
 // specify the entry file for React. This is what we compiled, our entire react structure
 // output is where the compiled code goes, a bundled JS file
 // module object specifies our loader - inside is the rules array where we specify what we want babel to compile
