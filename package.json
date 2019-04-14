@@ -4,7 +4,8 @@
   "description": "Boilerplate scripts for React app setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,9 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
