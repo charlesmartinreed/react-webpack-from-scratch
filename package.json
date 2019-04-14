@@ -1,0 +1,38 @@
+{
+  "name": "react-webpack-from-scratch",
+  "version": "1.0.0",
+  "description": "Boilerplate scripts for React app setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/charlesmartinreed/react-webpack-from-scratch.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "webdev"
+  ],
+  "author": "Charles Martin Reed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlesmartinreed/react-webpack-from-scratch/issues"
+  },
+  "homepage": "https://github.com/charlesmartinreed/react-webpack-from-scratch#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
